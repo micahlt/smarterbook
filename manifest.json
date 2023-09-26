@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "SmarterBook",
+  "description": "A better experience for McGraw Hill SmartBooks",
+  "icons": { "128": "icon.png" },
+  "version": "1.2",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "matches": ["*://learning.mheducation.com/static/awd/*"]
+    }
+  ]
+}
