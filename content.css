@@ -4,6 +4,8 @@
   display: flex;
   column-gap: 0.5em;
   margin-bottom: 1.5em;
+  flex-wrap: wrap;
+  row-gap: 0.5em;
 }
 
 .smarterbook-button {

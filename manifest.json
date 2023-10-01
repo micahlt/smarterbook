@@ -3,7 +3,7 @@
   "name": "SmarterBook",
   "description": "A better experience for McGraw Hill SmartBooks",
   "icons": { "128": "icon.png" },
-  "version": "1.2",
+  "version": "1.3",
   "background": {
     "service_worker": "background.js"
   },
